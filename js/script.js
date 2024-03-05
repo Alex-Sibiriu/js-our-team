@@ -36,3 +36,8 @@ const ourTeam = [
     img: 'barbara-ramos-graphic-designer.jpg',
   }
 ]
+
+
+for (let member of ourTeam) {
+  console.log(member.firstName, member.lastName, member.job, member.img);
+}
