@@ -42,12 +42,12 @@ const ourTeam = [
 for (let member of ourTeam) {
   teamWrapper.innerHTML += 
   `
-  <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="assets/img/${member.img}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">${member.firstName} ${member.lastName}</h5>
-          <p class="card-text">${member.job}</p>
+  <div class="col my-4">
+      <div class="card rounded-0">
+        <img src="assets/img/${member.img}" class="card-img-top rounded-0" alt="${member.firstName} ${member.lastName}">
+        <div class="card-body text-secondary py-4">
+          <h5 class="card-title font_vollkorn fs-4 fw-bold m-0">${member.firstName} ${member.lastName}</h5>
+          <p class="card-text fs-5">${member.job}</p>
         </div>
       </div>
     </div>

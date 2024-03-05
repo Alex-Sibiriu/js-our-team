@@ -1,0 +1,15 @@
+body {
+  background-color: #F5F5F1;
+}
+
+.font_vollkorn {
+  font-family: "Vollkorn", serif;
+}
+
+#sub-title {
+  max-width: 670px;
+  margin: 0 auto;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
