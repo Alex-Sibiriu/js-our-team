@@ -1,3 +1,4 @@
+const teamWrapper = document.getElementById('team-wrapper');
 const ourTeam = [
   {
     firstName: 'Wayne',
@@ -9,7 +10,7 @@ const ourTeam = [
     firstName: 'Angela',
     lastName: 'Caroll',
     job: 'Chief Editor',
-    img: 'walter-gordon-office-manager.jpg',
+    img: 'angela-caroll-chief-editor.jpg',
   },
   {
     firstName: 'Walter',
@@ -35,9 +36,20 @@ const ourTeam = [
     job: 'Graphic Designer',
     img: 'barbara-ramos-graphic-designer.jpg',
   }
-]
+];
 
 
 for (let member of ourTeam) {
-  console.log(member.firstName, member.lastName, member.job, member.img);
+  teamWrapper.innerHTML += 
+  `
+  <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/img/${member.img}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${member.firstName} ${member.lastName}</h5>
+          <p class="card-text">${member.job}</p>
+        </div>
+      </div>
+    </div>
+  `
 }
