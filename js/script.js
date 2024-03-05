@@ -45,9 +45,9 @@ for (let member of ourTeam) {
   <div class="col my-4">
       <div class="card rounded-0">
         <img src="assets/img/${member.img}" class="card-img-top rounded-0" alt="${member.firstName} ${member.lastName}">
-        <div class="card-body text-secondary py-4">
+        <div class="card-body txt_color_beige py-4">
           <h5 class="card-title font_vollkorn fs-4 fw-bold m-0">${member.firstName} ${member.lastName}</h5>
-          <p class="card-text fs-5">${member.job}</p>
+          <p class="card-text fs-5 fw-semibold font_quicksand">${member.job}</p>
         </div>
       </div>
     </div>

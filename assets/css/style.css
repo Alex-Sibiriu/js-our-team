@@ -2,8 +2,16 @@ body {
   background-color: #F5F5F1;
 }
 
+.txt_color_beige {
+  color: #6A645D;
+}
+
 .font_vollkorn {
   font-family: "Vollkorn", serif;
+}
+
+.font_quicksand {
+  font-family: "Quicksand", sans-serif;
 }
 
 #sub-title {
